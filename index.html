@@ -15,12 +15,14 @@
 <body>
     <h1>Pizza Order Form</h1>
     <form action="process_order.php" method="post">
+        <!-- get basic information of customer -->
         <label>First Name:</label>
         <input type="text" name="fname">
         <label>Last Name:</label>
         <input type="text" name="lname">
         <label>Contact:</label>
         <input type="number" name="contact">
+        <!-- get pizza details of customer -->
         <label>Pizza Size:</label>
         <select name="pizza_size" id="pizza_size">
             <option value="Small">Small</option>
